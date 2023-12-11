@@ -16,7 +16,7 @@
             <p class="display-4 text-secondary">
               <img
                 style="width: 250px"
-                src="/public/Color logo with background.svg"
+                src="/src/assets/Color logo with background.svg"
               />
             </p>
           </div>

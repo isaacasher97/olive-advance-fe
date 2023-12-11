@@ -5,7 +5,7 @@
         <a class="navbar-brand" href="/"
           ><img
             style="width: 150px"
-            src="/public/Color logo - no background.svg"
+            src="/src/assets/Color logo - no background.svg"
         /></a>
         <button
           class="navbar-toggler"

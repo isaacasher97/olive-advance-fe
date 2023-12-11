@@ -29,7 +29,7 @@
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
               <!-- Content -->
               <h6 class="text-uppercase fw-bold">
-                <img style="width: 125px" src="/public/title-logo.png" />
+                <img style="width: 125px" src="/src/assets/title-logo.png" />
               </h6>
               <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
