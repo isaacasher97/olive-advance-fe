@@ -3,7 +3,7 @@
     <Hero />
     <InfoSection />
     <HeroTwo />
-    <h2 style="text-align: center">Apply Today</h2>
+    <h2>Services</h2>
     <CardCarousel />
   </div>
 </template>
@@ -19,3 +19,14 @@ export default {
   components: { Hero, InfoSection, HeroTwo, CardCarousel },
 };
 </script>
+
+<style scoped>
+h2 {
+  text-align: center;
+  margin: 15px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #121212;
+  font-weight: 800;
+  text-decoration: underline;
+}
+</style>
