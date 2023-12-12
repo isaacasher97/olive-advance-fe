@@ -225,6 +225,7 @@ a {
   display: flex;
   width: 100%;
   margin: 0 auto;
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {

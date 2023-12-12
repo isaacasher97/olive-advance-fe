@@ -1,5 +1,13 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <AboutBanner />
 </template>
+
+<script>
+import AboutBanner from "../components/AboutBanner.vue";
+export default {
+  name: "AboutView",
+  components: { AboutBanner },
+};
+</script>
+
+<style></style>
