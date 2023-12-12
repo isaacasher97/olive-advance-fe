@@ -120,7 +120,7 @@
         >
           <div class="card-body">
             Feel free to reach out to us for all your future business financing
-            requirements. At Rapid Finance, we continually seek innovative ways
+            requirements. At Olive Advance, we continually seek innovative ways
             to foster the growth of your business.
           </div>
         </div>
