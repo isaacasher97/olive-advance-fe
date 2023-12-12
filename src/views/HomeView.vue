@@ -12,6 +12,8 @@
     <Accordion />
     <GreenBar />
     <Jumbotron />
+    <GreenBar />
+    <ContactForm />
   </div>
 </template>
 
@@ -23,6 +25,7 @@ import CardCarousel from "../components/CardCarousel.vue";
 import Accordion from "../components/Accordion.vue";
 import Jumbotron from "../components/Jumbotron.vue";
 import GreenBar from "../components/GreenBar.vue";
+import ContactForm from "../components/ContactForm.vue";
 
 export default {
   name: "HomeView",
@@ -34,6 +37,7 @@ export default {
     Accordion,
     Jumbotron,
     GreenBar,
+    ContactForm,
   },
 };
 </script>
