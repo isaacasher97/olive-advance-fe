@@ -3,7 +3,11 @@
   <section class="contact" id="connect">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 col-md-6 wow zoomIn" data-wow-duration="1.5s">
+        <div
+          id="contact-logo-img"
+          class="col-12 col-md-6 wow zoomIn"
+          data-wow-duration="1.5s"
+        >
           <img src="/src/assets/contact-img.svg" alt="Image" />
         </div>
         <div class="col-12 col-md-6 wow fadeIn" data-wow-duration="1.5s">
@@ -22,11 +26,14 @@
               <div class="col-12 col-sm-6 px-1">
                 <input type="tel" placeholder="Phone No." required />
               </div>
-              <div class="col-12 px-1">
-                <textarea rows="6" placeholder="Message"></textarea>
-                <div id="button-send">
-                  <button><span>Send</span></button>
-                </div>
+              <div class="col-12 col-sm-6 px-1">
+                <input type="text" placeholder="Company Name" />
+              </div>
+              <div class="col-12 col-sm-6 px-1">
+                <input type="text" placeholder="Loan Amount" />
+              </div>
+              <div id="button-send">
+                <button><span>Send</span></button>
               </div>
             </div>
           </form>
@@ -58,6 +65,7 @@ export default {
   font-weight: 700;
   margin-bottom: 30px;
   color: #f7f7f7;
+  text-align: center;
 }
 .contact form input,
 .contact form textarea {
@@ -107,7 +115,8 @@ export default {
   position: relative;
 }
 .contact form button:hover {
-  background-color: #218838 !important; /* Darker color on hover */
+  background-color: #218838; /* Darker color on hover */
+  color: #fff; /* White text on hover */
 }
 .contact form button::before {
   content: "";
@@ -149,7 +158,11 @@ export default {
     margin-top: 16px;
   }
   .contact img {
-    width: 96%;
+    width: 70%;
+  }
+  #contact-logo-img {
+    display: flex;
+    justify-content: center;
   }
 }
 </style>
