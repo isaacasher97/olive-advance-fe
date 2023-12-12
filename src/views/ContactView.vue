@@ -1,5 +1,13 @@
 <template>
-  <div class="contact">
-    <h1>This is a contact page</h1>
-  </div>
+  <ContactBanner />
 </template>
+
+<script>
+import ContactBanner from "../components/ContactBanner.vue";
+export default {
+  name: "ContactView",
+  components: { ContactBanner },
+};
+</script>
+
+<style></style>

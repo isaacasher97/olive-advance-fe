@@ -1,11 +1,11 @@
 <template>
-  <div id="aboutbanner" class="card bg-dark text-white">
+  <div id="contactbanner" class="card bg-dark text-white">
     <img src="" class="card-img" alt="" />
     <div class="card-img-overlay">
-      <h5 class="card-title">About Olive Avance</h5>
+      <h5 class="card-title">Contact Us</h5>
       <div class="links">
         <a href="/">Home</a>
-        <a href="#"> > About</a>
+        <a href="#"> > Contact</a>
       </div>
     </div>
   </div>
@@ -13,12 +13,12 @@
 
 <script>
 export default {
-  name: "AboutBanner",
+  name: "ContactBanner",
 };
 </script>
 
 <style scoped>
-#aboutbanner {
+#contactbanner {
   background: url(https://i.imgur.com/6aeOOdG.png);
   height: 100%;
   width: 100%;
