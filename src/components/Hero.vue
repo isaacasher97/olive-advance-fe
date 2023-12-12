@@ -134,4 +134,10 @@ a {
 .mb-4 {
   margin-bottom: 0 !important;
 }
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: 30px;
+  }
+}
 </style>

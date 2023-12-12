@@ -7,7 +7,7 @@
     <GreenBar />
     <h2>Services</h2>
     <CardCarousel />
-    <GreenBar />
+
     <h2>Apply In Minutes</h2>
     <Accordion />
     <GreenBar />

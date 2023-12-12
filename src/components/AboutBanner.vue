@@ -61,4 +61,9 @@ a:hover {
     padding: 20px;
   }
 }
+@media (min-width: 767px) {
+  .card-title {
+    font-size: xx-large;
+  }
+}
 </style>
