@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid p-0 overflow-hidden">
-    <div class="row g-0">
+    <div id="card-bg-top" class="row g-0">
       <div
         lc-helper="background"
         class="col-lg-6 order-lg-2"
@@ -11,7 +11,7 @@
           background-image: url('https://i.imgur.com/TdQgrrF.png&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1352&amp;q=80');
         "
       ></div>
-      <div class="col-lg-6 order-lg-1 my-auto px-5 py-5">
+      <div id="card-top-left" class="col-lg-6 order-lg-1 my-auto px-5 py-5">
         <div class="lc-block">
           <div editable="rich">
             <h1>Our Vision</h1>
@@ -29,7 +29,7 @@
       </div>
     </div>
 
-    <div class="row g-0">
+    <div id="card-bg-bottom" class="row g-0">
       <div
         lc-helper="background"
         class="col-lg-6"
@@ -40,7 +40,7 @@
           background-image: url('https://i.imgur.com/C9QKf39.png&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;h=768&amp;fit=crop&amp;ixid=eyJhcHBfaWQiOjM3ODR9');
         "
       ></div>
-      <div class="col-lg-6 my-auto px-5 py-5">
+      <div id="card-bottom-right" class="col-lg-6 my-auto px-5 py-5">
         <div class="lc-block">
           <div editable="rich">
             <h1>Empowering Your Success</h1>
@@ -64,4 +64,16 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+#card-top-left,
+#card-bottom-right,
+#card-bg-top,
+#card-bg-bottom {
+  background-color: rgb(24, 59, 84);
+}
+
+p,
+h1 {
+  color: #f7f7f7;
+}
+</style>
