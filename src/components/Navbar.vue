@@ -35,7 +35,7 @@
               <a class="nav-link" href="/contact">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">APPLY NOW</a>
+              <a class="nav-link btn-apply-now" href="#">APPLY NOW</a>
             </li>
           </ul>
         </div>
@@ -76,9 +76,26 @@ a {
   display: flex;
   flex-direction: column;
 }
+
+.btn-apply-now {
+  background-color: #28a745; /* Green background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Adjust padding for better appearance */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition on hover */
+  text-align: center;
+}
+
 @media screen and (min-width: 1000px) {
   .navbar-nav {
     gap: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .btn-apply-now {
+    width: 40%;
+    margin: 0 auto;
   }
 }
 </style>
