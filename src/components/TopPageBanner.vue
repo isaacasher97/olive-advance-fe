@@ -74,12 +74,11 @@ export default {
 
 <style>
 #top-banner {
-  background-color: #4834d4;
-  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%);
+  background-color: rgb(33, 209, 146);
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 10px 30px;
+  padding: 5px 30px;
   font-weight: bold;
 }
 
