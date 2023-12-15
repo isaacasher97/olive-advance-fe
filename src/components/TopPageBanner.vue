@@ -72,7 +72,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #top-banner {
   background-color: rgb(33, 209, 146);
   color: #fff;
