@@ -12,28 +12,61 @@
         </div>
         <div class="col-12 col-md-6 wow fadeIn" data-wow-duration="1.5s">
           <h2>Get In Touch</h2>
-          <form action="">
+          <form action="https://formspree.io/f/mqkrzbqj" method="POST">
             <div class="row">
               <div class="col-12 col-sm-6 px-1">
-                <input type="text" placeholder="First Name" required />
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  id="fname"
+                  name="fname"
+                  required
+                />
               </div>
               <div class="col-12 col-sm-6 px-1">
-                <input type="text" placeholder="Last Name" />
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  id="lname"
+                  name="lname"
+                />
               </div>
               <div class="col-12 col-sm-6 px-1">
-                <input type="email" placeholder="Email Address" required />
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  id="eml"
+                  name="eml"
+                  required
+                />
               </div>
               <div class="col-12 col-sm-6 px-1">
-                <input type="tel" placeholder="Phone No." required />
+                <input
+                  type="tel"
+                  placeholder="Phone No."
+                  id="contnum"
+                  name="contnum"
+                  required
+                />
               </div>
               <div class="col-12 col-sm-6 px-1">
-                <input type="text" placeholder="Company Name" />
+                <input
+                  type="text"
+                  placeholder="Company Name"
+                  id="cname"
+                  name="cname"
+                />
               </div>
               <div class="col-12 col-sm-6 px-1">
-                <input type="text" placeholder="Loan Amount" />
+                <input
+                  type="text"
+                  placeholder="Loan Amount"
+                  id="lamount"
+                  name="lamount"
+                />
               </div>
               <div id="button-send">
-                <button><span>Send</span></button>
+                <input type="submit" value="Submit" id="sbmt" name="sbmt" />
               </div>
             </div>
           </form>
@@ -98,7 +131,7 @@ export default {
   color: #121212;
   opacity: 0.8;
 }
-.contact form button {
+.contact form #sbmt {
   font-weight: 700;
   color: #fff; /* Improved contrast */
   background-color: #21d192; /* Updated button color */
@@ -110,15 +143,15 @@ export default {
   transition: 0.3s ease-in-out;
   cursor: pointer; /* Added pointer cursor */
 }
-.contact form button span {
+.contact form #sbmt {
   z-index: 1;
   position: relative;
 }
-.contact form button:hover {
+.contact form #sbmt:hover {
   background-color: #218838; /* Darker color on hover */
   color: #fff; /* White text on hover */
 }
-.contact form button::before {
+.contact form #sbmt::before {
   content: "";
   background: rgb(24, 59, 84);
   width: 0;
@@ -131,7 +164,7 @@ export default {
   transition: 0.3s ease-in-out;
   border-radius: 20px;
 }
-.contact form button:hover::before {
+.contact form #sbmt:hover::before {
   width: 100%;
 }
 #button-send {
@@ -152,7 +185,7 @@ export default {
   .contact form textarea::placeholder {
     font-size: 14px;
   }
-  .contact form button {
+  .contact form #sbmt {
     padding: 12px 40px;
     font-size: 15px;
     margin-top: 16px;

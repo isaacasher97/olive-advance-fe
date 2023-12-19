@@ -9,7 +9,12 @@
           <div id="form-container" class="card mt-4 mx-auto p-4 bg-light">
             <div class="card-body bg-light">
               <div class="container">
-                <form id="contact-form" role="form">
+                <form
+                  action="https://formspree.io/f/mqkrzbqj"
+                  method="POST"
+                  id="contact-form"
+                  role="form"
+                >
                   <div class="controls">
                     <div class="row mb-3">
                       <div class="col-md-6">
