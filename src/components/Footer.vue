@@ -74,7 +74,7 @@
               <p>Medical Practices</p>
               <p>Dental Practices</p>
               <p>Law Practices</p>
-              <p>Reataraunts</p>
+              <p>Restaurants</p>
               <p>Retailers</p>
               <p>All Industries...</p>
             </div>
