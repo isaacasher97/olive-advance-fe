@@ -115,6 +115,16 @@ export default defineComponent({
         ],
         applyNowLink: "#",
       },
+      {
+        heading: "Credit Card Processing",
+        bulletPoints: [
+          "Enable secure and hassle-free credit card payments",
+          "Seamless integration for real-time credit card processing",
+          "Robust measures to ensure data security and regulatory compliance",
+          "Customizable services meeting unique business needs",
+        ],
+        applyNowLink: "#",
+      },
       // Add more card data as needed
     ],
     breakpoints: {
