@@ -40,7 +40,7 @@
           <a
             id="call-button"
             class="btn btn-outline-secondary px-4"
-            href="tel:+7183393692"
+            href="tel:+17183393692"
             role="button"
           >
             <svg

@@ -145,7 +145,7 @@
                   />
                 </svg>
 
-                <a href="tel:+7183393692"> (718) 339 3692</a>
+                <a href="tel:+17183393692"> (718) 339 3692</a>
               </p>
               <div id="apply-button">
                 <button class="bn31">
